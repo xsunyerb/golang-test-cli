@@ -2,7 +2,7 @@
 A test command-line interface created with Go
 
 ## Install Go 
-- https://go.dev/
+- https://go.dev/doc/install
 
 ## Install Cobra CLI 
 - https://github.com/spf13/cobra
@@ -27,7 +27,7 @@ Execute from source
  go run main.go
 ```
 
-Exceute from executable
+Exceute from binary
 ```
  go install testcli
  testcli
