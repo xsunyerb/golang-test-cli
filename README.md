@@ -11,11 +11,24 @@ A test command-line interface created with Go
  go install github.com/spf13/cobra-cli@latest
 ``` 
 
-## Create test CLI
+## Create Test CLI
 
 ```
  md testcli
  cd testcli
+ go mod init testcli
  cobra-cli init
+``` 
+
+## Run Test CLI
+
+Execute from source
+```
  go run main.go
+```
+
+Exceute from executable
+```
+ go install testcli
+ testcli
 ``` 

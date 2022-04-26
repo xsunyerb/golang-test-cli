@@ -1,4 +1,4 @@
-module github.com/spf13/myapp
+module testcli
 
 go 1.18
 
